@@ -32,5 +32,5 @@ for i in range(num_of_games):
     
     time.sleep(0.001)
 
-st.success(f'Win Percentage with switching doors: {wins_with_switch / (wins_with_switch + wins_without_switch) * 100}%')
-st.success(f'Win Percentage without switching doors: {wins_without_switch / (wins_with_switch + wins_without_switch) * 100}%')
+st.success(f'Win Percentage with switching doors: {wins_with_switch / (wins_with_switch + wins_without_switch) * 100:.2f}%')
+st.success(f'Win Percentage without switching doors: {wins_without_switch / (wins_with_switch + wins_without_switch) * 100:.2f}%')
